@@ -3,7 +3,6 @@ package cuentas;
  * 
  * @author Lucas LMEL
  * ED04_Tarea
- *
  */
 public class CCuenta {
     private String nombre;
