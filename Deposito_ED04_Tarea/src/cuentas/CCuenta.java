@@ -1,16 +1,29 @@
 package cuentas;
+/**
+ * 
+ * @author Lucas LMEL
+ * ED04_Tarea
+ *
+ */
 public class CCuenta {
-
-
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
-
+	/**
+	 * Constructor vacio
+	 */
     public CCuenta()
     {
-    }
 
+    }
+	/**
+	 * Constructor que inicializa los parametros 
+	 * @param nom Nombre del cliente
+	 * @param cue Numero de cuenta
+	 * @param sal Saldo de la cuenta
+	 * @param tipo Tipo de interes aplicado
+	 */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         setNombre(nom);
